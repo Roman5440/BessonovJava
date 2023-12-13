@@ -8,52 +8,52 @@ public class Main {
         String decision = null;
 
         while (true) {
-            System.out.println("Введите число");
+            System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ");
             input = scanner.nextInt();
 
             if (input > num) {
-                System.out.println("Привет");
+                System.out.println("РџСЂРёРІРµС‚");
             }
 
-            System.out.println("Продолжить ввод? Введите да/нет");
+            System.out.println("РџСЂРѕРґРѕР»Р¶РёС‚СЊ РІРІРѕРґ? Р’РІРµРґРёС‚Рµ РґР°/РЅРµС‚");
             scanner.nextLine();
             decision = scanner.nextLine();
 
-            if (decision.equals("да")) {
-                System.out.println("Введите число");
+            if (decision.equals("РґР°")) {
+                System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ");
 
                 input = scanner.nextInt();
                 if (input > num) {
-                    System.out.println("Привет");
+                    System.out.println("РџСЂРёРІРµС‚");
                 } else {
-                    System.out.println("Число меньше 7");
+                    System.out.println("Р§РёСЃР»Рѕ РјРµРЅСЊС€Рµ 7");
                     break;
                 }
             } else break;
         }
 
-        String name = "Вячеслав";
+        String name = "Р’СЏС‡РµСЃР»Р°РІ";
         String inputName;
         String decision2;
         while (true) {
-            System.out.println("Введите имя");
+            System.out.println("Р’РІРµРґРёС‚Рµ РёРјСЏ");
             inputName = scanner.nextLine();
             if (inputName.equals(name)) {
-                System.out.println("Привет, Вячеслав");
+                System.out.println("РџСЂРёРІРµС‚, Р’СЏС‡РµСЃР»Р°РІ");
             } else {
-                System.out.println("Нет такого имени");
+                System.out.println("РќРµС‚ С‚Р°РєРѕРіРѕ РёРјРµРЅРё");
             }
 
-            System.out.println("Продолжить ввод? Да/нет");
+            System.out.println("РџСЂРѕРґРѕР»Р¶РёС‚СЊ РІРІРѕРґ? Р”Р°/РЅРµС‚");
             decision2 = scanner.nextLine();
 
-            if(decision2.equals("да")){
-                System.out.println("Введите имя");
+            if(decision2.equals("РґР°")){
+                System.out.println("Р’РІРµРґРёС‚Рµ РёРјСЏ");
                 inputName = scanner.nextLine();
                 if (inputName.equals(name)) {
-                    System.out.println("Привет, Вячеслав");
+                    System.out.println("РџСЂРёРІРµС‚, Р’СЏС‡РµСЃР»Р°РІ");
                 } else {
-                    System.out.println("Нет такого имени");
+                    System.out.println("РќРµС‚ С‚Р°РєРѕРіРѕ РёРјРµРЅРё");
                 }
             } else break;
 
@@ -66,5 +66,5 @@ public class Main {
             }
         }
     }
-    //Ответ на 4 задание: Скобочная последовательность правильная
+    //РћС‚РІРµС‚ РЅР° 4 Р·Р°РґР°РЅРёРµ: РЎРєРѕР±РѕС‡РЅР°СЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РїСЂР°РІРёР»СЊРЅР°СЏ
 }
